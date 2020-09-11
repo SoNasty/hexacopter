@@ -4,12 +4,9 @@ rpy_speed = ['rollspeed_degperrsec', 'pitchspeed_degperrsec', 'yawspeed_degperrs
 fmot = ["f{}_kg".format(i + 1) for i in range(6)]
 zlmn = ['Z', 'L', 'M', 'N']
 
-
 class Format:
     end = '\033[0m'
     underline = '\033[4m'
-
-
 import pandas as pd
 import numpy as np
 import pathlib
@@ -18,7 +15,6 @@ import sklearn.pipeline
 import sklearn.ensemble
 import sklearn.preprocessing
 import time
-
 # =============================================================================
 
 version = "7.2"
